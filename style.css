@@ -63,6 +63,9 @@ body {
     align-items: flex-start;
     gap: 0;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
 
 .links li {
@@ -83,25 +86,30 @@ body {
 
 .text {
   width: 450px;
-  min-width: 250px;
-  flex-shrink: 1;
+  min-width: 200px;
 }
 
 .image {
   width: 550px;
-  min-width: 300px;
+  min-width: 250px;
   height: 250px;
   object-fit: cover;
-  flex-shrink: 1;
+}
+
+.button,
+.call-for-action {
+  background-color: #3882f6;
+  color: #f9faf8;
 }
 
 .button {
-  background-color: #3882f6;
   padding: 8px;
   width: 130px;
   font-weight: 700;
   text-align: center;
   border-radius: 8px;
+  text-decoration: none;
+  display: block;
 }
 
 h1 {
@@ -136,4 +144,31 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 36px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  padding: 100px 25%;
+}
+
+.quote p {
+  margin: 0;
+  padding: 0;
+}
+
+.quote-by {
+  text-align: end;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 0;
+}
+
+.call-for-action {
+  margin: 100px 10%;
 }
