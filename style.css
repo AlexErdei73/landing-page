@@ -72,6 +72,10 @@ body {
   min-width: fit-content;
 }
 
+.links li:hover {
+  color: #ffffff;
+}
+
 .hero {
   margin-top: 60px;
   display: flex;
@@ -108,10 +112,13 @@ body {
   font-weight: 700;
   text-align: center;
   border-radius: 8px;
-  text-decoration: none;
   display: block;
   margin: 8px 0;
   flex-shrink: 0;
+}
+
+.button:hover {
+  background-color: #1a6ff6;
 }
 
 h1 {
@@ -132,6 +139,12 @@ h1 {
   object-fit: cover;
   border: 5px solid #3882f6;
   border-radius: 12px;
+}
+
+.project-img:hover {
+  width: 190px;
+  height: 190px;
+  border: none;
 }
 
 .project-description {
@@ -188,4 +201,15 @@ h2 {
 
 .border {
   border: 2px solid #f9faf8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.picture {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
 }
