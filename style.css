@@ -97,10 +97,23 @@ h1 {
   margin: 0;
 }
 
+.information-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
 .project-img {
   width: 150px;
   height: 150px;
   object-fit: cover;
   border: 2px solid #3882f6;
   border-radius: 12px;
+}
+
+.project-description {
+  width: 150px;
+  text-align: center;
+  color: #1f2937;
+  font-size: 18px;
 }
