@@ -213,3 +213,9 @@ a {
   height: 180px;
   overflow: hidden;
 }
+
+.footer {
+  text-align: center;
+  padding: 36px;
+  font-size: 18px;
+}
