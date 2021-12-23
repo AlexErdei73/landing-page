@@ -110,10 +110,12 @@ body {
   border-radius: 8px;
   text-decoration: none;
   display: block;
+  margin: 8px 0;
+  flex-shrink: 0;
 }
 
 h1 {
-  margin: 0;
+  margin: 8px 0;
 }
 
 .information-header {
@@ -121,6 +123,7 @@ h1 {
   font-weight: 900;
   color: #1f2937;
   text-align: center;
+  margin: 48px;
 }
 
 .project-img {
@@ -170,5 +173,19 @@ h2 {
 }
 
 .call-for-action {
-  margin: 100px 10%;
+  margin: 100px 15%;
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.text p {
+  margin: 0;
+}
+
+.border {
+  border: 2px solid #f9faf8;
 }
