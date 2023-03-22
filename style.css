@@ -57,7 +57,7 @@ body {
   gap: 36px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 650px) {
   .nav,
   .links {
     flex-direction: column;
@@ -163,6 +163,8 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 36px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .quote {
